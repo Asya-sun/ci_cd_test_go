@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.1.0...v1.2.0) (2025-04-18)
+
+
+### Features
+
+* empty go.sum adde ([40d850d](https://github.com/Asya-sun/ci_cd_test_go/commit/40d850dd94bd98f9410a88f093e3515fc3adee28))
+
 # [1.1.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.0.0...v1.1.0) (2025-04-18)
 
 
