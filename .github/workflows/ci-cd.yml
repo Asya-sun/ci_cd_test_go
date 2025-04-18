@@ -24,6 +24,9 @@ jobs:
         run: go test -v ./...
 
   docker-push:
+    needs: build-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     steps:
       - name: Build and push
         uses: docker/build-push-action@v5
