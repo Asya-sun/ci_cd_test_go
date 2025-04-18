@@ -28,6 +28,10 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
+      - uses: actions/checkout@v4  # Клонирует репозиторий
+        with:
+          fetch-depth: 0  # Полная история коммитов (для тегов)
+          
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
