@@ -23,7 +23,7 @@ jobs:
         run: go test -v ./...
 
   docker-push:
-    needs: [build-test, release]
+    needs: [build-test]
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
@@ -49,7 +49,6 @@ jobs:
           tags: |
             ${{ env.DOCKER_IMAGE }}:latest
             ${{ env.DOCKER_IMAGE }}:${{ github.sha }}
-            ${{ env.DOCKER_IMAGE }}:${{ needs.release.outputs.version }}
 
   release:
     needs: build-test
