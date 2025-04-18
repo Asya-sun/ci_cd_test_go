@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.0.0...v1.1.0) (2025-04-18)
+
+
+### Features
+
+* yml changed x6 ([dafbd23](https://github.com/Asya-sun/ci_cd_test_go/commit/dafbd23484b8073775f9e124dc7e87c46e55165d))
+
 # 1.0.0 (2025-04-18)
 
 
