@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.3.0...v1.4.0) (2025-04-18)
+
+
+### Features
+
+* go version in Dockerfile changed ([df8be25](https://github.com/Asya-sun/ci_cd_test_go/commit/df8be25bf477e8b71d0ad254ff7a52902769702b))
+
 # [1.3.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.2.0...v1.3.0) (2025-04-18)
 
 
