@@ -60,6 +60,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # mb
+          ref: ${{ github.head_ref || github.ref }}
+          token: ${{ secrets.GH_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
