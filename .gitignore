@@ -1,0 +1,11 @@
+# Игнорировать бинарные файлы Go
+/ci_cd_test.go
+/solver
+/quadratic/ci_cd_test_go
+
+# Игнорировать зависимости Node.js
+/node_modules/
+
+# Игнорировать файлы IDE
+.vscode/
+.idea/

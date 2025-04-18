@@ -1,0 +1,26 @@
+{
+  "name": "ci_cd_test_go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asya-sun/ci_cd_test_go.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asya-sun/ci_cd_test_go/issues"
+  },
+  "homepage": "https://github.com/Asya-sun/ci_cd_test_go#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.1",
+    "semantic-release": "^24.2.3"
+  }
+}
