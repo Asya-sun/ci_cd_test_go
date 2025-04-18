@@ -6,7 +6,7 @@ on:
   pull_request:
 
 env:
-  DOCKER_IMAGE: your-dockerhub-username/ci-cd-test-go
+  DOCKER_IMAGE: asyasun/ci-cd-test-go
   VERSION: latest
 
 jobs:
