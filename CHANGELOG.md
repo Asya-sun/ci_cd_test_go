@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.2.0...v1.3.0) (2025-04-18)
+
+
+### Features
+
+* go.mod deleted, Dockerfile changed ([81f1354](https://github.com/Asya-sun/ci_cd_test_go/commit/81f1354ba4f71084650f001e1afeaf6920964c12))
+
 # [1.2.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.1.0...v1.2.0) (2025-04-18)
 
 
