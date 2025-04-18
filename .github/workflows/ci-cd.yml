@@ -24,26 +24,15 @@ jobs:
         run: go test -v ./...
 
   docker-push:
-    needs: build-test
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Login to Docker Hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
       - name: Build and push
         uses: docker/build-push-action@v5
         with:
           context: .
           push: true
           tags: |
-            ${{ env.DOCKER_IMAGE }}:${{ env.VERSION }}
-            ${{ env.DOCKER_IMAGE }}:$(git describe --tags --always)
+            ${{ env.DOCKER_IMAGE }}:latest
+            ${{ env.DOCKER_IMAGE }}:${{ github.sha }}
 
   release:
     needs: docker-push
