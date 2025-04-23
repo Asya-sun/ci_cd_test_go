@@ -22,10 +22,11 @@ jobs:
       - name: Install dependencies
         run: go mod tidy
 
-      - name: Install golangci-lint
-        run: |
-          curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s latest
-          sudo mv ./bin/golangci-lint /usr/local/bin/
+      - name: Run golangci-lint
+        uses: golangci/golangci-lint-action@v3
+        with:
+          version: latest
+          args: --verbose
 
       - name: Run golangci-lint
         run: golangci-lint run ./...
