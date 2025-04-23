@@ -9,5 +9,5 @@ linters:
     - govet
     - staticcheck
     - errcheck
-    - gofmt
+    - revive
     - gosimple
