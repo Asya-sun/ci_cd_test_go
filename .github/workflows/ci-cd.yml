@@ -30,7 +30,7 @@ jobs:
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v3
         with:
-          version: 2.0.0
+          version: latest
           args: --verbose
 
       - name: Run tests with coverage
