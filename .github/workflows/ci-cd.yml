@@ -29,10 +29,23 @@ jobs:
 
       - name: Run tests and generate coverage report
         run: |
-          go test -coverprofile=coverage.out ./...
-          # Исключаем main.go
+          # go test -coverprofile=coverage.out ./...
+          # # Исключаем main.go
+          # grep -v "main.go" coverage.out > filtered.out
+          # mv filtered.out coverage.out
+          echo "Running go test..."
+          go test -v -coverprofile=coverage.out ./...
+
+          echo "Checking if coverage.out exists..."
+          if [ ! -f coverage.out ]; then
+            echo "❌ coverage.out not found! Something went wrong with the tests."
+            exit 1
+          fi
+
+          echo "Excluding main.go from coverage..."
           grep -v "main.go" coverage.out > filtered.out
           mv filtered.out coverage.out
+          echo "✅ coverage.out ready"
 
       - name: Check code coverage threshold
         run: |
