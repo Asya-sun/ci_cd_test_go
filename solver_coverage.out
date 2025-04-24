@@ -1,0 +1,6 @@
+mode: set
+ci_cd_test_go/quadratic/solver.go:9.61,10.15 1 1
+ci_cd_test_go/quadratic/solver.go:10.15,12.6 1 1
+ci_cd_test_go/quadratic/solver.go:14.5,15.25 2 1
+ci_cd_test_go/quadratic/solver.go:15.25,17.6 1 1
+ci_cd_test_go/quadratic/solver.go:19.5,24.24 4 1

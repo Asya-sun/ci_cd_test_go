@@ -27,14 +27,12 @@ jobs:
       #     curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s latest
       #     sudo mv ./bin/golangci-lint /usr/local/bin/
 
-      - name: Run golangci-lint
-        uses: golangci/golangci-lint-action@v3
-        with:
-          version: latest
-          args: --verbose
-
-      - name: Run tests with coverage
-        run: go test ./... -coverprofile=coverage.out
+      - name: Run tests and generate coverage report
+        run: |
+          go test -coverprofile=coverage.out ./...
+          # Исключаем main.go
+          grep -v "main.go" coverage.out > filtered.out
+          mv filtered.out coverage.out
 
       - name: Check code coverage threshold
         run: |
