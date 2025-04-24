@@ -1,3 +1,18 @@
+# [1.5.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.4.0...v1.5.0) (2025-04-24)
+
+
+### Features
+
+* static code anylyzer added: changed .golangci.yml - version added : try x2 ([66e715a](https://github.com/Asya-sun/ci_cd_test_go/commit/66e715ac0b9acb6c50498fb86da0e4d10f0c7b1a))
+* static code anylyzer added: changed .golangci.yml - version changed : try x3 ([89e8b5b](https://github.com/Asya-sun/ci_cd_test_go/commit/89e8b5bf51ef542b58161a40c69af713b3fdf532))
+* static code anylyzer added: changed .golangci.yml - version changed : try x4 ([5c48cd5](https://github.com/Asya-sun/ci_cd_test_go/commit/5c48cd5ea492035af013b345bf1663ea19116b6b))
+* static code anylyzer added: ci-cd.yml changed - changed source of golang-lint: try x4 ([5de3879](https://github.com/Asya-sun/ci_cd_test_go/commit/5de3879c1d7eafc0d5dd7aae55aeb5f8d15b9c29))
+* static code anylyzer added: main.go removed from analyzing try x9 ([71fbedb](https://github.com/Asya-sun/ci_cd_test_go/commit/71fbedb835cb9c2d522042ddf64edf8a73e637ac))
+* static code anylyzer added: try x1 ([1f9f0b3](https://github.com/Asya-sun/ci_cd_test_go/commit/1f9f0b332b71bd1c975b84a6f9418a27daaf9f00))
+* static code anylyzer added: try x6 ([533c40c](https://github.com/Asya-sun/ci_cd_test_go/commit/533c40c0a38e3fc387a6b16a5ab017f17bbfc803))
+* static code anylyzer added: try x7 ([d4e03c2](https://github.com/Asya-sun/ci_cd_test_go/commit/d4e03c2b3b0a4ee733bc17ba913199776e25a09d))
+* static code anylyzer added: try x8 ([1c0dc97](https://github.com/Asya-sun/ci_cd_test_go/commit/1c0dc97689b1c45595d484c123ccfb969ac59630))
+
 # [1.4.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.3.0...v1.4.0) (2025-04-18)
 
 
