@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.5.0...v1.6.0) (2025-04-24)
+
+
+### Features
+
+* trying to add coverage.out try 1 ([9151d66](https://github.com/Asya-sun/ci_cd_test_go/commit/9151d66298085b22e58d7bac6727980f22b8ba98))
+* trying to add coverage.out try 2 ([4f4a50f](https://github.com/Asya-sun/ci_cd_test_go/commit/4f4a50f3c122fab95ba6fcf810ea6d92c458f616))
+* trying to add coverage.out try 3 ([47d577e](https://github.com/Asya-sun/ci_cd_test_go/commit/47d577e537fa0636e4259fe757a1f8338d89b484))
+
 # [1.5.0](https://github.com/Asya-sun/ci_cd_test_go/compare/v1.4.0...v1.5.0) (2025-04-24)
 
 
